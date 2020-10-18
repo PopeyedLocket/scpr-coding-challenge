@@ -54,7 +54,7 @@ repo_commit_counts = sorted(
 	reverse=True)[:n]
 
 # output the top n repos by number of commits
-print('The Top %d repos by commit activity (# of commits) are:' % n)
+print('The top %d repos by commit activity (# of commits) are:' % n)
 for i, (repo_name, num_commits) in enumerate(repo_commit_counts):
 	print('    %d. repo %s has %d commits.' % (i+1, repo_name, num_commits))
 print()

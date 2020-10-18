@@ -3,7 +3,7 @@
 
 PART 1: BULLET 1:
 ```
-The Top 5 repos by commit activity (# of commits) are:
+The top 5 repos by commit activity (# of commits) are:
     1. repo https://github.com/zachwill/mario has 5475 commits.
     2. repo https://github.com/chuan12/shenzhouzd has 2606 commits.
     3. repo https://github.com/LiveChief/Most-Active-Repository has 2082 commits.
@@ -13,7 +13,7 @@ The Top 5 repos by commit activity (# of commits) are:
 
 PART 1: BULLET 2:
 ```
-The Top 5 most frequent words used in the commit messages are:
+The top 5 most frequent words used in the commit messages are:
     1. word "update" occurs 119292 times.
     2. word "to" occurs 98642 times.
     3. word "add" occurs 77867 times.

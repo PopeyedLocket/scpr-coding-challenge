@@ -15,8 +15,8 @@ db = client["scpr_db"]
 commit_collection = db["commits"]
 result = commit_collection.find({})
 
-# count the number of commits for each repo
-# and the frequency of each word in the commit messages
+# count the number of commits for each repo for each year and
+# the frequency of each word in the commit messages for each year
 print('\nCalculating the number of commits for each repo for each year and')
 print('the frequency of each word in the commit messages for each year ...')
 commit_shas = set()

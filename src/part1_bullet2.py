@@ -54,7 +54,7 @@ word_counts = sorted(
 	reverse=True)[:n]
 
 # output the top n words by frequency
-print('The Top %d most frequent words used in the commit messages are:' % n)
+print('The top %d most frequent words used in the commit messages are:' % n)
 for i, (word, frequency) in enumerate(word_counts):
 	print('    %d. word \"%s\" occurs %d times.' % (i+1, word, frequency))
 print()
